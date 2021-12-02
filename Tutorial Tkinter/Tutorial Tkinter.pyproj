@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>00e30ad3-314f-4720-b67f-3d8e87f9504c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>tkinter_label.py</StartupFile>
+    <StartupFile>tkinter_message.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,15 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="tkinter_message.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkinter_radio.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tkinter_viewer.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tkinter_calculator.py">
       <SubType>Code</SubType>
     </Compile>
